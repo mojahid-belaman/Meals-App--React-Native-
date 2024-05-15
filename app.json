@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meals",
+    "name": "My Recipe Book",
     "slug": "meals",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,21 +9,31 @@
     "backgroundColor": "#24080f",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": "1",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mojahidbelaman.meals"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e64719f5-d00a-4886-824f-6722aaa33aa2"
+      }
     }
   }
 }
